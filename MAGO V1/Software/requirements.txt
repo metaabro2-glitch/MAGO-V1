@@ -1,0 +1,8 @@
+PyQt5==5.15.9
+pyserial==3.5
+opencv-python==4.8.0.76
+imutils==0.5.4
+pyqtgraph==0.13.7
+PyOpenGL==3.1.6
+mss==9.0.1
+numpy==1.25.2

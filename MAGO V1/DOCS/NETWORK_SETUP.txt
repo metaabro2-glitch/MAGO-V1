@@ -1,0 +1,10 @@
+
+#### 📄 `Docs/NETWORK_SETUP.md`
+```text
+Ethernet Direct Connection Setup:
+----------------------------------
+1. Connect Ethernet cable between PC1 and PC2.
+2. On PC1: Open Network Adapters -> IPv4 Properties -> Set IP to 192.168.1.2, Subnet 255.255.255.0
+3. On PC2: Open Network Adapters -> IPv4 Properties -> Set IP to 192.168.1.3, Subnet 255.255.255.0
+4. In rov_system.py on PC2, ensure PC2_IP = "192.168.1.2"
+5. Disable Windows Firewall on both PCs for private networks (or allow Python).

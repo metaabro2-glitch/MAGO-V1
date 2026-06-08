@@ -1,0 +1,19 @@
+Arduino Nano/Uno Pin Connections:
+[ Sensors ]
+
+MPU9250 SDA -> A4
+MPU9250 SCL -> A5
+JSN-SR04T Trig -> D9
+JSN-SR04T Echo -> D10
+LM35 Vout -> A0
+[ Actuators ]
+
+Thruster 1 Signal -> D5
+Thruster 2 Signal -> D6
+Thruster 3 Signal -> D11
+Thruster 4 Signal -> D12
+LED Pin -> D4
+[ Power ]
+
+Ensure Sensors & Arduino share common GND!
+ESCs powered via separate BEC/Power supply, signal wire GND connected to Arduino GND.
